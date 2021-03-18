@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC43EE46-8D51-3883-955B-2C2E371312E1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>openpano</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openpano.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openpano</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openpano</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openpano.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openpano</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openpano</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openpano.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openpano</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openpano</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openpano.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openpano</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openpano</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLE_JPEG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/Za /D EIGEN_NO_ASSERTION_CHECKING %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DISABLE_JPEG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DISABLE_JPEG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DISABLE_JPEG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/Za /D EIGEN_NO_ASSERTION_CHECKING %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/Za /D EIGEN_NO_ASSERTION_CHECKING %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/Za /D EIGEN_NO_ASSERTION_CHECKING %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\ThirdParty\eigen-3.3.8\install\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DISABLE_JPEG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSource\C++\Stitching\OpenPano-master\src;E:\include\eigen3;E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/OpenSource/C++/Stitching/OpenPano-master/src -BE:/OpenSource/C++/Stitching/OpenPano-master/src --check-stamp-file E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindJPEG.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPythonLibs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\3.18.2\CMakeSystem.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Config.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3ConfigVersion.cmake;E:\ThirdParty\eigen-3.3.8\mybuild\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\brief.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\dist.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\dog.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\extrema.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\feature.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\gaussian.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\matcher.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\orientation.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\sift.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\color.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\config.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\debugutils.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\imgio.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\imgproc.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\kdtree.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\matrix.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\planedrawer.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\polygon.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\timer.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\utils.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\blender.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\camera.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\camera_estimator.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\cylstitcher.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\debug.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\homography.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\incremental_bundle_adjuster.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\multiband.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcher.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcher_image.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcherbase.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\transform_estimate.cc" />
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\warp.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\ZERO_CHECK.vcxproj">
+      <Project>{2770657F-7B4E-3A6D-AEFE-607997D3C2A9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\third-party\lodepng.vcxproj">
+      <Project>{FBF5D52F-DD06-303B-8646-FD673A816EE1}</Project>
+      <Name>lodepng</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

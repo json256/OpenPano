@@ -1,0 +1,5 @@
+E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/openpano.dir
+E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/image-stitching.dir
+E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/ALL_BUILD.dir
+E:/OpenSource/C++/Stitching/OpenPano-master/src/CMakeFiles/ZERO_CHECK.dir
+E:/OpenSource/C++/Stitching/OpenPano-master/src/third-party/CMakeFiles/lodepng.dir

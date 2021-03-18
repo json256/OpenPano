@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\brief.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\dist.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\dog.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\extrema.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\feature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\gaussian.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\matcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\orientation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\feature\sift.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\color.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\debugutils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\imgio.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\imgproc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\kdtree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\matrix.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\planedrawer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\polygon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\lib\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\blender.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\camera.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\camera_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\cylstitcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\homography.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\incremental_bundle_adjuster.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\multiband.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcher_image.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\stitcherbase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\transform_estimate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\stitch\warp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\OpenSource\C++\Stitching\OpenPano-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{91226FD7-A8D4-3261-90C6-1A7CD7CC6E16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+编译
+1. 手动添加Eigen目录
+2. 修改common.hh 增加 not or 宏定义
+3. 手动去除jpeg库依赖
+4. kdtree手动修改匿名struct
+5. 手动去除eigen_assert_exception
+6. 修改utils.hh终端颜色代码
+7. 修改png库目标计算机类型x64
+8. 修改flann serialization.h为新版 支持x64
+9. 修改输出目录 库依赖目录
